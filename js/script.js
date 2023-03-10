@@ -103,7 +103,7 @@ function startTyping() {
       if(timeLeft != 0) {
         let display = setInterval( () => {
           timeCount.innerText = timeLeft
-          let wpm = Math.round((((index - (mistakesCount / 5)) / 4)  * 60) / (maxTime - timeLeft))
+          let wpm = Math.round((((index - mistakesCount) / 4)  * 60) / (maxTime - timeLeft))
           wpm = wpm < 0 || !wpm || wpm === Infinity ? 0 : wpm 
           wordSpeed.innerText = wpm
           let accuracy = Math.round(((index - mistakesCount) * 100) / index)
