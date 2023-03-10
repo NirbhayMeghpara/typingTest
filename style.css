@@ -411,7 +411,7 @@ li span b{
 }
 
 @keyframes blink{
-  0%,to {
+  0% {
     opacity: 1
   }
   50% {
