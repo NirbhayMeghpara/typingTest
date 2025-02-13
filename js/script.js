@@ -12,7 +12,7 @@ function loaded() {
       clearInterval()
       loading.style.zIndex = "-1000"
     }
-  }, 3500)
+  }, 1000)
 }
 
 const allBulb = document.querySelectorAll(".cardboard .light-bulb .base .bulb")
