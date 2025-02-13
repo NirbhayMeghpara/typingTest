@@ -19,7 +19,7 @@ body{
   height: 120px;
   width: 100%;
   opacity: 0;
-  animation: top 1.5s 3.5s forwards;
+  animation: top 1.5s 1.0s forwards;
 }
 
 @keyframes top {
@@ -41,7 +41,7 @@ body{
   flex-direction: row;
   margin-right: 10px;
   margin-left: -10px;
-  animation: zoom 1.5s 3.5s forwards;
+  animation: zoom 1.5s 1.0s forwards;
 }
 
 .message div{
@@ -271,7 +271,7 @@ body{
   background: transparent;
   border-radius: 10px;
   box-shadow: 0 10px 15px rgba(0,0,0,0.05);
-  animation: zoom 1.5s 3.5s forwards;
+  animation: zoom 1.5s 1.0s forwards;
 }
 
 .box{
